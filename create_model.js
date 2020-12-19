@@ -7,9 +7,9 @@ const db = new Sequelize('sampledb1','sampleuser1','samplepass1',{
 })
 
 const Student = db.define('student', {
-    // name: DataTypes.STRING(40),
-    // age: DataTypes.INTEGER(2)
-    
+    name: DataTypes.STRING(40),
+    age: DataTypes.INTEGER(2)
+
 
 })
 db.sync()
